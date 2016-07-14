@@ -1,1 +1,2 @@
-app/bower
+app/_bower
+.sass-cache
