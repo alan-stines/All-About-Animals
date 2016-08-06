@@ -46,7 +46,7 @@
 </div>
 <div class="form-group">
 <label for="pettype">Pettype:</label>
-<select id="date">
+<select id="pettype">
 <option value="pettype">Pettype</option>
 <option value="breed1">Dog</option>
 <option value="breed2">Cat</option>

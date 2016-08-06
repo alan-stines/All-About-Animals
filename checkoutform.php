@@ -14,7 +14,7 @@
 		<?php include "header.php"?>
 		<!--yes takes them to an adoption form and out going form while no will just pull up an outgoing form -->
 		<h1>is the animal being adopted?</h1>
-		<a href="AOform.php" type="button" class="btn btn-info">Yes</button>
-		<a href="Oform.php" type="button" class="btn btn-info">No</button>
+		<a href="outgoingtableA.php" type="button" class="btn btn-info">Yes</button>
+		<a href="outgoingtableB.php" type="button" class="btn btn-info">No</button>
 </body>
 </html>
