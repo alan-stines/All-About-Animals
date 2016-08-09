@@ -32,7 +32,7 @@
 					<th><a href="incomingformtable.php">1</a></th>
 					<th><a href="outgoingtable.php">1</a></th>
 					<th><a href="adoptiontable.php">1</a></th>
-					<th><a href="healthrecords.php">Healthrecords</a></th>
+					<th><a href="medicalform.php">Healthrecords</a></th>
 					<th><input type="checkbox"></th>
 				</tr>
 		</table>

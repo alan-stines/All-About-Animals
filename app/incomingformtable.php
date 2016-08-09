@@ -25,7 +25,7 @@
 				<tr>
 					<th>1</th>
 					<th>july 30th</th>
-					<th><a href="edittableincoming">edit</a></th>
+					<th><a href="edittable#1">edit</a></th>
 				</tr>
 		</table>
 		

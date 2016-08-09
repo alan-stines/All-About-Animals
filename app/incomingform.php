@@ -14,7 +14,7 @@
 		<?php include "header.php"?>
 <!--need to make a second form page or add-on to this one for medical records-->
 <form role="form">
-
+<!--pet medical-->
 <div class="form-group">
 <label for="petname">PetName</label>
 <input type="text" class="form-control" id="petname">
@@ -28,6 +28,244 @@
 <option value="old">old</option>
 </select>
 </div>
+
+
+<br>
+<h4>Sex</h4>
+<div class="form-group">
+<div class="col-xs-6">
+<p>Male
+<input type="checkbox" class="form-control" id="M">
+</p>
+</div>
+<div class="col-xs-6">
+<p>Female
+<input type="checkbox" class="form-control" id="F">
+</p>
+</div>
+</div>
+<div class="form-group">
+<label for="pettype">Pettype:</label>
+<select id="pettype">
+<option value="pettype">Pettype</option>
+<option value="breed1">Dog</option>
+<option value="breed2">Cat</option>
+<option value="breed3">Horse</option>
+</select>
+</div>
+
+<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Medical type</th>
+					<th> medical location/vaccination type</th>
+					<th>done on</th>
+					<th>pos/neg</th>
+					<th>Next due on</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+				<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+				<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+				<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+				<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+				<tr>
+					<th>
+	<select id="medtype">
+<option value="Med1">medical type</option>
+<option value="Med2">Heartworm Test</option>
+<option value="Med3">FeLV/FIV Test</option>
+<option value="Med4">Rabies</option>
+<option value="Med5">Deworming</option>
+<option value="Med6">Vaccination</option>
+</select>
+</th>
+					
+					<th><input type="text" class="form-control" id="destination/type"></th>
+					<th>
+						<input type="date" class="form-control" id="datedone">
+					</th>
+					<th><select id="pos/neg">
+							<option value="na">NA</option>
+							<option value="med1">Postive</option>
+							<option value="med2">Negative</option>
+						</select>
+					
+					</th>
+					<th>
+					<input type="date" class="form-control" id="duedate">
+					
+					</th>
+				</tr>
+		</table>
+		
+
+
+
 <div class="form-group">
 <label for="description">Pet Description</label>
 <textarea  rows="5" class="form-control" id="description"></textarea>
@@ -43,15 +281,6 @@
 <div class="form-group">
 <label for="i.d.">Pet I.D. Number:</label>
 <input type="text" class="form-control" id="i.d.">
-</div>
-<div class="form-group">
-<label for="pettype">Pettype:</label>
-<select id="pettype">
-<option value="pettype">Pettype</option>
-<option value="breed1">Dog</option>
-<option value="breed2">Cat</option>
-<option value="breed3">Horse</option>
-</select>
 </div>
 
 <div class="form-group">
