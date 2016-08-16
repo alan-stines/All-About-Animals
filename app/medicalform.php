@@ -1,4 +1,4 @@
-<?php include "header.php"?>
+<?php include './_src/header.php'; ?>
 <h3>Sex: Female</h3>
 <h3>Breed: Golden Retriever</h3>
 <table class="table table-hover">
@@ -34,5 +34,6 @@ HeartWorm test
 <tr>
 </table>
  <a href="medicalrow.php" class="btn btn-info" role="button">add new</a>
-</body>
-</html>
+
+ 
+ <?php	include './_src/footer.php'; ?>

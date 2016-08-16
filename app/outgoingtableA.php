@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php 
+	$title = "The BarnYard - Inventory System for Animals";
+	include './_src/header.php'; 
+?>
 <h2>Adoption Information</h2>
 <form role="form">
 <div class="form-group">
@@ -162,5 +165,4 @@
 </div>
 </form>
 
-</body>
-</html>
+<?php	include './_src/footer.php'; ?>

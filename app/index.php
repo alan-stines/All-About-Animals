@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hello World</title>
-	<!--link below is temporary until it can be replaced -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link href="_bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-	<script src="_bower/jquery/dist/jquery.min.js"></script>
-	<script src="_bower/bootstrap/dist/js/bootstrap.min.js"></script>
-	<link href="_src/style.css" rel="stylesheet" />
-</head>
-<body>
-	<div class="container">
-		<?php include "header.php"?>
-		
-	</div><!-- END CONTAINER -->
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-</body>
-</html>
+<?php 
+	$title = "The BarnYard - Inventory System for Animals";
+	include './_src/header.php'; 
+?>
+<h1>About <em>The BarnYard</em></h1>
+<p><em>The BarnYard</em> is a software application for the All About Animals Rescue Group located in downtown Macon, GA.  The purpose is to track the inventory of animals the Rescue Group deals with and provide an easier method for tracking history than paper records.</p>
+
+<?php	include './_src/footer.php'; ?>

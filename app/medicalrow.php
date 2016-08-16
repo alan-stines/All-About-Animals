@@ -1,4 +1,4 @@
-	<?php include "header.php"?>
+<?php include './_src/header.php'; ?>
 	
 <table class="table table-hover">
 			<thead>
@@ -41,5 +41,5 @@
 				</tr>
 				</tbody>
 				 <a href="#" class="btn btn-info" role="button">Save</a>
-				 </body>
-				 </html>
+
+<?php	include './_src/footer.php'; ?>
